@@ -146,6 +146,61 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &57760835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57760832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e33efaed1154f4fa910aa7c53e71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: 
+  energia: 0
+  forca_ataque: 0
+  forca_do_pulo: 0
+  velocidade: 0
+  numero_de_pes: 0
+  numero_de_maos: 0
+--- !u!114 &57760836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57760832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7378f48d3dca1fd40b429bf08dbeadca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &57760837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57760832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0a4cae19bdf4f469e16d6e89c6a6d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &57760838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57760832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10b19b9b957cb14abd9e83ceadf7b75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &85328593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -198,6 +253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88525360740df7e4cbb01743b9797830, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -205,6 +264,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88525360740df7e4cbb01743b9797830, type: 3}
       insertIndex: -1
       addedObject: {fileID: 57760833}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88525360740df7e4cbb01743b9797830, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 57760838}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88525360740df7e4cbb01743b9797830, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 57760837}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88525360740df7e4cbb01743b9797830, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 57760836}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88525360740df7e4cbb01743b9797830, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 57760835}
   m_SourcePrefab: {fileID: 100100000, guid: 88525360740df7e4cbb01743b9797830, type: 3}
 --- !u!1 &151384168 stripped
 GameObject:
